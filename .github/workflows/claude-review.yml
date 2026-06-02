@@ -92,4 +92,4 @@ jobs:
           # Herramientas disponibles para Claude.
           # Se removió mcp__github_inline_comment (requería MCP server no configurado).
           # gh pr review permite tanto inline comments como el comentario general.
-          claude_args: --model claude-sonnet-4-6 --max-turns 8 --allowedTools "Bash(gh pr comment:*),Bash(gh pr diff:*),Bash(gh pr view:*),Bash(gh pr review:*)"
+          claude_args: --model claude-sonnet-4-6 --max-turns 15 --allowedTools "Read,Bash(gh pr comment:*),Bash(gh pr diff:*),Bash(gh pr view:*),Bash(gh pr review:*),Bash(git diff:*),Bash(git log:*)"
